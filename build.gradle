@@ -27,5 +27,9 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.projectlombok:lombok') // gradle 4버전
+    /*compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'*/ // gradle 5버전
+    //gradlew wrapper --gradle-version 4.10.2 버전을 변경하고 싶으면 원하는 버전을 터미널에 입력
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
