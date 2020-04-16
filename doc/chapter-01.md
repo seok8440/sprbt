@@ -13,3 +13,25 @@
 - 자바, 스프링 부트 버전업에 맞춘 빠른 업데이트
 
 <p align="center"><img src="../images/intelij.jpg" width="1000px" height="600px" title="px(픽셀) 크기 설정" alt="인텔리제이 유료, 무료 차이"></img><br/></p>
+
+인텔리제이 설치하기
+----------------
+1. 인텔리제이 다운로드 [https://www.jetbrains.com/ko-kr/idea/download/#section=windows](https://www.jetbrains.com/ko-kr/idea/download/#section=windows)
+2. 원하는 테마 설정
+3. 단축키, 플러그인 기본값으로 설정
+
+인텔리제이 커뮤니티에서 프로젝트 생성하기
+----------------------------------
+1. Create New Project
+2. Gradle, java 선택 후 Next
+<p align="center"><img src="../images/newProject-01.jpg" width="1000px" height="600px" title="px(픽셀) 크기 설정" alt="프로젝트생성 01"></img><br/></p>
+3. GroupId, ArtifactId 입력
+
+  - GroupId : src/main/java/(입력한 경로) ex) com.spr.bt
+  - ArtifactId : 기본적으로는 프로젝트 이름이 됨
+<p align="center"><img src="../images/newProject-02.jpg" width="1000px" height="600px" title="px(픽셀) 크기 설정" alt="프로젝트생성 02"></img><br/></p>
+
+그레이들 프로젝트를 스프링 부트 프로젝트로 변경하기
+------------------------------------------
+인텔리제이에서 깃과 깃허브 사용하기
+-----------------------------
