@@ -24,7 +24,8 @@
 ----------------------------------
 1. Create New Project
 2. Gradle, java 선택 후 Next
-<p align="center"><img src="../images/newProject-01.jpg" width="1000px" height="600px" title="px(픽셀) 크기 설정" alt="프로젝트생성 01"></img><br/></p>
+![프로젝트생성 01](../images/newProject-01.jpg)
+<!-- <p align="center"><img src="../images/newProject-01.jpg" width="1000px" height="600px" title="px(픽셀) 크기 설정" alt="프로젝트생성 01"></img><br/></p>-->
 3. GroupId, ArtifactId 입력
 
   - GroupId : src/main/java/(입력한 경로) ex) com.spr.bt
