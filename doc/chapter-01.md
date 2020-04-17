@@ -31,14 +31,19 @@
 
 그레이들 프로젝트를 스프링 부트 프로젝트로 변경하기
 ------------------------------------------
+build.gradle 가장 기초적인 설정
 ```
+// 프로젝트의 플러그인 의존성 관리를 위한 설정 (인텔리제이의 플러그인 관리 X)
 buildscript {
-    ext {
+    ext { // build.gradle에서 사용하는 전역변수를 설정하겠다는 의미
         springBootVersion = '2.1.7.RELEASE'
+        // springBootVersion를 생성하고 그 값을 '2.1.7.RELEASE'로 선언  
     }
-    repositories {
-        mavenCentral()
+    repositories { // 각종 의존성(라이브러리)들을 어떤 원격 저장소에서 받을지를 정함
+        mavenCentral() // 기본적으로 많이 사용, 본인이 만든 라이브러리를 업로드하기 위해서는 많은 과정과 설정이 필요
         jcenter()
+        /* mavenCentral의 라이브러리 업로드 난이도 때문에 jcenter도 많이 사용,
+           라이브러리 업로드가 간단하고 mavenCentral에도 업로드될 수 있도록 자동화 가능 */
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -64,6 +69,8 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 ```
+프로젝트의 플러그인 의존성 관리를 위한 설정<br>
+(인텔리제이의 플러그인 관리 X)
 
 인텔리제이에서 깃과 깃허브 사용하기
 -----------------------------
