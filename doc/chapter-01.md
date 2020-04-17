@@ -12,8 +12,7 @@
 - HTML과 CSS, JS, XML에 대한 강력한 기능 지원
 - 자바, 스프링 부트 버전업에 맞춘 빠른 업데이트
 
-<p align="center"><img src="../images/intelij.jpg" width="1000px" height="600px" title="px(픽셀) 크기 설정" alt="인텔리제이 유료, 무료 차이"></img><br/></p>
-
+![인텔리제이 유료, 무료 차이](../images/intelij.jpg)
 인텔리제이 설치하기
 ----------------
 1. 인텔리제이 다운로드 [https://www.jetbrains.com/ko-kr/idea/download/#section=windows](https://www.jetbrains.com/ko-kr/idea/download/#section=windows)
