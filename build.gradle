@@ -33,5 +33,6 @@ dependencies {
     //gradlew wrapper --gradle-version 4.10.2 버전을 변경하고 싶으면 원하는 버전을 터미널에 입력
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
