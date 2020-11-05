@@ -15,7 +15,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r freelec-springboot2-webservice ./*
+  - zip -r freelec-springboot2-webservice *
   - mkdir -p deploy
   - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservice.zip
 
@@ -24,7 +24,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
 
-    bucket: freelec-springboot2-webservice
+    bucket: freelec-springboot2-build1
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
